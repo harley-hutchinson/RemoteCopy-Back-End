@@ -1,0 +1,8 @@
+CREATE DATABASE test;
+
+USE test;
+
+CREATE TABLE saved_text (
+  ID INT PRIMARY KEY AUTO_INCREMENT,
+  text TEXT
+);
